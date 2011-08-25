@@ -1,6 +1,16 @@
 = frogger
 
-Description goes here.
+Frogger is a redirecting proxy for Crowdcast. 
+
+Given a request like
+
+http://client_token-SITE_NAME.crowdcast.com 
+
+frogger will redirect internally to
+
+https://SITE_NAME.client_token.crowdcast.com:19080/
+
+Frogger should not reveal the backend port - nor the host configuration to the browser or the user
 
 == Contributing to frogger
  
@@ -14,6 +24,6 @@ Description goes here.
 
 == Copyright
 
-Copyright (c) 2011 Beth Mazur. See LICENSE.txt for
+Copyright (c) 2011 Beth Mazur, Curtis Schofield See LICENSE.txt for
 further details.
 

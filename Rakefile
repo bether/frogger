@@ -17,10 +17,10 @@ Jeweler::Tasks.new do |gem|
   gem.name = "frogger"
   gem.homepage = "http://github.com/bether/frogger"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Frogger : Redirecting Proxy based on EM-PROXY for Crowdcast}
+  gem.description = %Q{Redirect to an internal host/port map in a way that keeps ssl together and uses crowdcast wildcard ssl}
   gem.email = "beth@crowdcast.com"
-  gem.authors = ["Beth Mazur"]
+  gem.authors = ["Beth Mazur", "Curtis Schofield"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
